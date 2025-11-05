@@ -6,16 +6,16 @@ const MyProfile = () => {
     const [isEdit, setIsEdit] = useState(false)
 
     const [userData, setUserData] = useState({
-        name: "Richard James",
+        name: "Anuv Jain",
         image: assets.profile_pic,
-        email: 'richardjames@gmail.com',
+        email: 'anuvjain@gmail.com',
         phone: '+1  123 456 7890',
         address: {
-            line1: '57th Cross, Richmond',
-            line2: 'Circle, Church Road, London',
+            line1: '57th Cross, Ali Road',
+            line2: 'Mumbai, India',
         },
         gender: 'Male',
-        dob: '2000-01-20'
+        dob: '1995-03-11'
     })
 
     return (
